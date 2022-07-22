@@ -1,0 +1,277 @@
+*{
+    margin: 0px; /* El margin 0px nos centra toda la pag */
+    font-family: "Times New Roman", sans-serif; /* Fuente */
+}
+body{
+    background-color: rgb(31, 30, 30);       /* Color de fondo general */   
+}
+.container{
+    background-color: black; /* Color de fondo general */
+    width: 1000px; /*width define el ancho de un elemento */ /*Todo el container tenda una anchura de 1000px*/
+    margin: 0px auto; /* margin de 0px saca el margen de los cuatro lados, y el auto es el que centra, ya que, el auto tecentra horizontalmente */
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+}
+h2{
+    color: #666666;
+    font-size: 44px;
+    text-align: center;
+    font-weight: normal;
+}
+h3, h4, h4, h6{
+    margin-bottom: 30px;
+    color: #666666;
+}
+a{
+    
+    color: #CF7B00;
+    text-decoration: none; /* Te quita la decoracion que tenga, en este caso saco el subrayado  */
+}
+
+header p{ /* afecte a todos los p que se encuentran dentro del header */
+    color: #303030;
+    font-size: 12px;
+}
+
+header .left{ /*el div llamado con class left dentro del header*/
+    float: left; /*Ubica al elemento del lado izquierdo*/
+    width: 48%; /* le das una anchura del 48% (en este caso) al div .left */
+    padding: 3% 0px 3% 2%;
+}
+
+header .right{
+    float: right;/*Ubica al elemento del lado izquierdo*/
+    width: 48%; 
+    padding: 46px 20px 3% 0%;
+}
+
+header .top_header{
+    overflow: hidden; /* forma el cuadrado con su cuadros correspondientes adentro*/
+}
+header .right ul li{
+    /* height: 10px; */
+    /* border-right: 2px solid #303030; */
+    display: inline-block; /*Los li general la lista entonces bloqueamos que se hagan por linea*/
+    padding: 0px 2px 9px 0px;
+}
+header .right ul li a{
+    font-size: 10 px;
+    color: #646464;
+}
+header .right ul li.last{
+    border-right: none;
+}
+header .right {
+    text-align: right;
+}
+header .right form input {
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    height: 26px;
+    width: 224px;
+    border: none;
+}
+.topbar{
+    height: 35px;
+    border-top: 1px solid #575757 ;
+    border-bottom: 1px solid #575757 ;
+}
+.topbar ul{
+    font-size: 74%;
+    padding: 6px;
+}
+.topbar ul li{
+    display: inline-block;
+    padding: 3px 0px 0px 20px; /*pongo padding solo del lado izquierdo*/
+}
+.topbar ul a{
+  color: #FFFFFF;
+  padding: 9px 0px;
+}
+.topbar ul li a:hover{
+    color: #CF7B00;
+    background-color: #FFFFFF;
+}
+.top_box{
+    margin-top: 35px;
+}
+.top_box p{
+    color: #737373;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    padding: 27px 114px 0px 114px;
+}
+.img_box{
+    display: flex;
+    width: 960px;
+    margin: 0px auto;
+    margin-top: 52px;
+}
+/* .img_box #ima2 {
+    padding: 0px 29px;
+} */
+.img_box p{
+    color: #FFFFFF;
+}
+#div_ima2{
+    padding: 0px 29px;
+}
+.link_text p{
+    color: #CF7B00;
+    font-size: 19px;
+}
+.link_text{
+    background-color: #0e0e0e;
+    text-align: center;
+    margin-top: -4px;
+    padding: 21px;
+}
+.box_news{
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-bottom: 40px;
+    margin-top: 51px;
+    padding: 31px;
+}
+
+.box_news h1{
+    color: #525252;
+}
+.box_news .top {
+    display: flex;
+}
+.box_news .bottom{
+    display: flex;
+    margin-top: 54px;
+}
+.box_news .image_box {
+    float: left;
+}
+.box_news .image_box img{
+    float: left;
+    margin-bottom: 11px;
+}
+.box_news .image_box h1{
+    float: right;
+    margin-left: 15px;
+    font-size: 28px;
+    margin-top: 8px;
+}
+.card_news p{
+    color: #9C9C9C;
+    
+}
+footer{
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    border-top: 1px solid #575757 ;
+
+}
+
+footer p{
+    color: #575757;
+}
+footer .top_footer{
+    display: flex;
+}
+.form_blog {
+    float: left;
+    width: 220px;
+    margin: 0px 15px 0px 15px;
+}
+.form_blog p{
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+.quick_links {
+    float: left;
+    width: 220px;
+    margin: 0px 15px 0px 15px;
+}
+.contact{
+    float: left;
+    width: 220px;
+    margin: 0px 15px 0px 15px;
+}
+.socialize{
+    float: left;
+    width: 220px;
+    margin: 0px 15px 0px 15px;
+    padding: 2px;
+    font-size: 12px;
+}
+.socialize h3{
+    font-size: 19px;
+}
+
+.socialize ul li{
+    padding: 2px;
+    font-size: 12px;
+    text-align: left;
+    border-bottom: 1px solid #1c1c1c;
+    margin: 22px;
+}
+.socialize ul {
+    margin-left: -61px;
+}
+.socialize ul a i{
+    color: white;
+    background-color: #575757;
+    width: 16px;
+    height: 15px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+}
+.quick_links ul{
+    padding: 0px;
+    font-size: 21px;
+    margin: 0px;
+}
+.quick_links h3{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    margin-bottom: 25px;
+}
+.form_blog h5{
+    color: #575757;
+    margin: 0px 15px 0px px;
+}
+.form_blog h6{
+    color: #575757;
+    margin-bottom: 20px;
+    
+}
+.quick_links ul li{
+    padding: 2px;
+    font-size: 12px;
+    text-align: left;
+    border-bottom: 1px solid #1c1c1c;
+    margin: 22px;
+}
+
+.contact p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.read_more{
+    float: right;
+    font-size: 12px;
+}
+.bot_footer{
+    border-top: 1px solid #575757 ;
+    margin: 0px -20px 0px -19px;
+    padding: 20px 0px 20px 32px;
+    display: flex;
+}
+.bot_footer .templateby{
+    float: right;
+    padding: 0px 0px 0px 460px;
+}

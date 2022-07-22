@@ -1,0 +1,54 @@
+body {
+    background-color: #55b8ea;
+}
+.card {
+    background-color: #F7F7F7;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    border-radius: 2px;
+    max-width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 18px 58px rgba(0, 0, 0, .3); 
+    /*  */
+}
+.input1{
+    margin-bottom: 10px ;
+    text-align: center;
+}
+.input2{
+    text-align: center;
+}
+.profile-img-card {
+    border-radius: 100px;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+}
+h3 {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline #55b8ea;
+}
+.forgot {
+    border-top: 1px solid #b7b5b5;
+    background-color: rgb(244, 234, 234);
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+.div-group{
+    padding: 40px 40px;
+}
+.div-boton{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 150px;
+}
+#remember label{
+    margin-left: 16px;
+    margin-top: 10px;
+}

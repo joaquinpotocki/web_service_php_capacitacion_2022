@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<body>
+    <input type="text" name='length' id='length'>
+    <button type="button" class="btn" id='btn'>Buscar</button>
+
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Titulo</th>
+            <th scope="col"></th>
+            <th scope="col">Cuerpo del Post</th>
+            <th scope="col"></th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">51</td>
+            <td align="center">soluta aliquam aperiam consequatur illo quis voluptas</td>
+            <td align="center"></td>
+            <td>sunt dolores aut doloribus
+                dolore doloribus voluptates tempora et
+                doloremque et quo
+                cum asperiores sit consectetur dolorem</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('51')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-51"></tr>
+        <tr>
+            <td align="center">52</td>
+            <td align="center">qui enim et consequuntur quia animi quis voluptate quibusdam</td>
+            <td align="center"></td>
+            <td>iusto est quibusdam fuga quas quaerat molestias
+                a enim ut sit accusamus enim
+                temporibus iusto accusantium provident architecto
+                soluta esse reprehenderit qui laborum</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('52')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-52"></tr>
+        <tr>
+            <td align="center">53</td>
+            <td align="center">ut quo aut ducimus alias</td>
+            <td align="center"></td>
+            <td>minima harum praesentium eum rerum illo dolore
+                quasi exercitationem rerum nam
+                porro quis neque quo
+                consequatur minus dolor quidem veritatis sunt non explicabo similique</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('53')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-53"></tr>
+        <tr>
+            <td align="center">54</td>
+            <td align="center">sit asperiores ipsam eveniet odio non quia</td>
+            <td align="center"></td>
+            <td>totam corporis dignissimos
+                vitae dolorem ut occaecati accusamus
+                ex velit deserunt
+                et exercitationem vero incidunt corrupti mollitia</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('54')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-54"></tr>
+        <tr>
+            <td align="center">55</td>
+            <td align="center">sit vel voluptatem et non libero</td>
+            <td align="center"></td>
+            <td>debitis excepturi ea perferendis harum libero optio
+                eos accusamus cum fuga ut sapiente repudiandae
+                et ut incidunt omnis molestiae
+                nihil ut eum odit</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('55')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-55"></tr>
+        <tr>
+            <td align="center">56</td>
+            <td align="center">qui et at rerum necessitatibus</td>
+            <td align="center"></td>
+            <td>aut est omnis dolores
+                neque rerum quod ea rerum velit pariatur beatae excepturi
+                et provident voluptas corrupti
+                corporis harum reprehenderit dolores eligendi</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('56')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-56"></tr>
+        <tr>
+            <td align="center">57</td>
+            <td align="center">sed ab est est</td>
+            <td align="center"></td>
+            <td>at pariatur consequuntur earum quidem
+                quo est laudantium soluta voluptatem
+                qui ullam et est
+                et cum voluptas voluptatum repellat est</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('57')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-57"></tr>
+        <tr>
+            <td align="center">58</td>
+            <td align="center">voluptatum itaque dolores nisi et quasi</td>
+            <td align="center"></td>
+            <td>veniam voluptatum quae adipisci id
+                et id quia eos ad et dolorem
+                aliquam quo nisi sunt eos impedit error
+                ad similique veniam</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('58')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-58"></tr>
+        <tr>
+            <td align="center">59</td>
+            <td align="center">qui commodi dolor at maiores et quis id accusantium</td>
+            <td align="center"></td>
+            <td>perspiciatis et quam ea autem temporibus non voluptatibus qui
+                beatae a earum officia nesciunt dolores suscipit voluptas et
+                animi doloribus cum rerum quas et magni
+                et hic ut ut commodi expedita sunt</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('59')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-59"></tr>
+        <tr>
+            <td align="center">60</td>
+            <td align="center">consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere</td>
+            <td align="center"></td>
+            <td>asperiores sunt ab assumenda cumque modi velit
+                qui esse omnis
+                voluptate et fuga perferendis voluptas
+                illo ratione amet aut et omnis</td>
+            <td align="center"></td>
+            <td><button type="button" class="btn btn-primary" onclick="agregarComentario('60')">Comentarios</button>
+            </td>
+        </tr>
+        <tr id="id-60"></tr>
+    </tbody>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script>
+
+                function muestra_oculta(id) {
+                    if (document.getElementById) { //se obtiene el id
+                        var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+                        el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+                    }
+                }
+                window.onload = function () {/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
+                    muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
+                }
+            </script>
+
+</html>

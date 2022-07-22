@@ -1,0 +1,208 @@
+@media screen and (max-width: 725px){
+    .sidebar-bot{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px){
+    .image-perfil{
+        display: none;
+    }
+}
+a{
+    color: white;
+}
+.div-falso{
+    background-color: #377ea8;
+    height: 50px;
+    box-shadow: 0px 18px 58px rgba(0, 0, 0, .3);
+    width: 250px;
+}
+.div-true{
+    background-color: #3c8dbc;
+    height: 50px;
+    float: right;
+    /* padding: 0px 0px 0px 900px; */
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+}
+.p-navbar{
+    display: flex;
+    justify-content: right;
+}
+.div-navbar{
+    padding: 50px 0px 0px 0px;
+    background-color: #1e292d;
+
+}
+.sidebar-bot{
+    width: 250px;
+}
+.cont-background{
+    background-color: #364950;
+    
+    padding: 15px 15px 15px 5px;
+}
+.div-form form input{
+    background-color: #acaeb3;
+    text-align: left;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 50px 0px 0px;
+}
+.div-form{
+    padding: 10px 0px 0px 0px;
+}
+.perfil-alexander{
+    overflow: hidden;
+    display: flex;
+
+    align-items: center;
+}
+.perfil-alexander .img-alexander{
+    padding: 0px 20px 0px 0px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+.p-navbar img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.img-alexander img{
+    width: 50px;
+    height: 50px;
+}
+.info-nombre{
+    margin-left: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.div-online{
+    display: flex;
+    align-items: center;
+}
+.info-nombre .Alex-a{
+    text-decoration: none;
+    padding: 0px 22px 0px 0px;
+}
+.circulo {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #5cb85c;
+    background: #5cb85c;
+    margin-right: 4px;
+}
+.span-brand{
+    width: 140px;
+    padding: 15px 0px 0px 10px;
+}
+.div-items{
+    font-size: 16px;
+    font-weight: 850;
+    height: 100vh;
+    padding: 20px 0px 0px 0px;
+    
+}
+.div-items ul li{
+    padding: 5px;
+}
+body{
+    display: flex;
+}
+.div-index{
+    padding: 60px 0px 0px 20px;
+    width: 100%;
+}
+.table thead{
+    background-color: rgb(79, 79, 76);
+    color: white;
+}
+/* Index 2 */
+.container-image{
+    background-color: #CCCCCC;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.container-image .box-image{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.container-image .box-image button{
+    margin-left: 27px;
+
+}
+
+.container-image img{
+    width: 150px;
+    height: 150px;
+
+}
+.modal-image{
+    margin-left: auto; 
+    margin-right: auto;
+}
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.img-collapse{
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0px 18px 58px rgba(0, 0, 0, .2); 
+}
+.div-image-perfil{
+    float: left;
+}
+.formulario{
+    float: right;
+}
+.container-tabs1{
+    overflow: hidden;
+}
+.image-perfil{
+    background-color: #CCCCCC;
+    height: 100vh;
+    box-shadow: 0px 18px 58px rgba(0, 0, 0, .2); 
+}
+.img-black{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.img-close{
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+}
+.close-button{
+    float: right;
+}
+
+.errores{
+    -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    margin-top: -50px;
+    margin-left: 180px;
+    padding: 10px;
+    position: absolute;
+}
+

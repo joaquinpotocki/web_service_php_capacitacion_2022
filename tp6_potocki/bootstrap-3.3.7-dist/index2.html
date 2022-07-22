@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Index</title>
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" href="jquery/style.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- css -->
+    <link href="css/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar-top">
+        <div class="div-true">
+            <a class="p-navbar">
+                <img src="img/profile-user.png" class="img2" alt="">
+                <span class="span-brand">Alexander Pierce</span>
+            </a>
+        </div>
+    </div>
+    <div class="sidebar-bot">
+        <div class="div-navbar">
+            <div class="cont-background">
+                <div class="perfil-alexander user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="img-alexander">
+                        <img src="img/profile-user.png" alt="">
+                    </div>
+                    <div class="info-nombre">
+                        <a href="" class="Alex-a">Alexander Pierce</a>
+                        <div class="div-online">
+                            <div class="circulo"></div> <a href="">Online</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="div-form">
+                    <form action="POST">
+                        <input type="text" placeholder="Search..">
+                    </form>
+                </div>
+            </div>
+            <div class="div-items">
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="abm.html">ABM Page</a></li>
+                    <li><a href="">jQuery</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="close-button">
+                <img src="img/boton_transparente.png" class="img-close" data-dismiss="modal" alt="">
+            </div>
+            <div class="img-modal">
+                <img src="img/img-perfil.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end modal/ -->
+    <div class="modal fade" mo></div>
+    <div class=" div-index">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Perfil</a></li>
+                <li><a href="#tabs-2">Informacion</a></li>
+                <li><a href="#tabs-3">Noticia</a></li>
+            </ul>
+            <div id="tabs-1">
+                <!-- Div -->
+                <div class="container-tabs1">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="image-perfil">
+                                <img src="img/img-perfil.jpg" class="img-black" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="formulario">
+                                <h1>Informacion Basica</h1>
+                                <form id="signupForm" action="" method="post"></form>
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-12">
+                                        <div class="form-group" id="pepe">
+                                            <!-- Date input -->
+                                            <input type="text" class="form-control is-valid" id="campoValido" placeholder="First name" required>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-12">
+                                        <div class="form-group" id="pepe2">
+                                            <!-- Date input -->
+                                            <input class="form-control" id="campoValido2" placeholder="Last name"type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-12">
+                                        <div class="form-group" id="pepe3">
+                                            <!-- Date input -->
+                                            <input class="form-control" id="campoValido3" name="date"
+                                                placeholder="MM/DD/YYY" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-12" id="pepe4">
+                                        <div class="form-group">
+                                            <!-- Date input -->
+                                            <input class="form-control" id="campoValido4" placeholder="Pais" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-12">
+                                        <div class="form-group" id="pepe5">
+                                            <!-- Date input -->
+                                            <input class="form-control" id="campoValido5" placeholder="Provincia" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-12">
+                                        <input class="form-check-input" type="radio" name="nene" id="flexRadioDisabled">
+                                        <label class="form-check-label" for="flexRadioDisabled">
+                                            Nene
+                                        </label>
+                                        <input class="form-check-input" type="radio" name="nena" id="flexRadioDisabled">
+                                        <label class="form-check-label" for="flexRadioDisabled">
+                                            Nena
+                                        </label>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-8 col-xs-12">
+                                        <input type="submit" value="Cancel" class="btn btn-secondary">
+                                    </div>
+                                    <div class="col-md-6 col-sm-8 col-xs-12">
+                                        <input type="submit" class="btn btn-success" value="Submit" />
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tabs-2">
+                <h2>Quienes somos</h2>
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus
+                    id
+                    nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros
+                    molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed
+                    ligula
+                    in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi
+                    facilisis.
+                    Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat
+                    volutpat.
+                    Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem
+                    euismod
+                    felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                <div class="container-image">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 box-image">
+                            <div class="thumbnail">
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"> <img
+                                        src="img/profile-user.png" alt=""></button>
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 box-image">
+                            <div class="thumbnail">
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"> <img
+                                        src="img/profile-user.png" alt=""></button>
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 box-image">
+                            <div class="thumbnail">
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"> <img
+                                        src="img/profile-user.png" alt=""></button>
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 box-image">
+                            <div class="thumbnail">
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"> <img
+                                        src="img/profile-user.png" alt=""></button>
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tabs-3">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseOne">
+                                    Collapsible Group Item #1
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="div-collapse">
+                                    <div class="img-collapse">
+                                        <img src="img/img-perfil.jpg" alt="">
+                                    </div>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <p class="p-collapse">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                        tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch
+                                        et.
+                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                        sapiente
+                                        ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                        beer
+                                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                        of
+                                        them
+                                        accusamus labore sustainable VHS.
+                                    </p>
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                        tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch
+                                        et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseTwo">
+                                    Collapsible Group Item #2
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="div-collapse">
+                                    <div class="img-collapse">
+                                        <img src="img/img-perfil.jpg" alt="">
+                                    </div>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <p class="p-collapse">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                        tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch
+                                        et.
+                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                        sapiente
+                                        ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                        beer
+                                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                        of
+                                        them
+                                        accusamus labore sustainable VHS.
+                                    </p>
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                        tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch
+                                        et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseThree">
+                                    Collapsible Group Item #3
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="div-collapse">
+                                    <div class="img-collapse">
+                                        <img src="img/img-perfil.jpg" alt="">
+                                    </div>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <p class="p-collapse">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                        tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch
+                                        et.
+                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                        sapiente
+                                        ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                        beer
+                                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                        of
+                                        them
+                                        accusamus labore sustainable VHS.
+                                    </p>
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                        tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch
+                                        et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!--  -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Scrip de boostrap min -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Scrip para jquery 3.6 -->
+    <script src="js/jquery.js"></script>
+    <!-- Script para jquery ui -->
+    <script src="jquery/jquery-ui.js"></script>
+
+
+
+</body>
+<script>
+    $(document).ready(function () {
+        var date_input = $('input[name="date"]'); //our date input has the name "date"
+        var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+        var options = {
+            format: 'mm/dd/yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+        };
+        date_input.datepicker(options);
+    })
+</script>
+<script>
+    $(function () {
+        $("#tabs").tabs();
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('#campoValido').focusout(function (e) {
+            cant = $(this).val();
+            if (cant == '') {
+                $('#pepe').addClass('has-error');
+                $('#pepe').removeClass('has-success');
+                $('#negative-id').remove();
+                $('#pepe').append('<div class="negative" id="negative-id">Escriba su nombre por favor!</div>');
+            }else{
+                $('#pepe').addClass('has-success');
+                $('#pepe').removeClass('has-error');
+                $('#negative-id').remove();
+                $('#pepe').append('<div class="positive" id="negative-id">Bien!</div>');
+            }
+        })
+    });
+    $(document).ready(function () {
+        $('#campoValido2').focusout(function (e) {
+            cant = $(this).val();
+            if (cant == '') {
+                $('#pepe2').addClass('has-error');
+                $('#pepe2').removeClass('has-success');
+                $('#negative-id2').remove();
+                $('#pepe2').append('<div class="negative" id="negative-id2">Escriba su apellido por favor!</div>');
+            }else{
+                $('#pepe2').addClass('has-success');
+                $('#pepe2').removeClass('has-error');
+                $('#negative-id2').remove();
+                $('#pepe2').append('<div class="positive" id="negative-id2">Bien!</div>');
+            }
+        })
+    });
+    $(document).ready(function () {
+        $('#campoValido3').focusout(function (e) {
+            cant = $(this).val();
+            if (cant == '') {
+                $('#pepe3').addClass('has-error');
+                $('#pepe3').removeClass('has-success');
+                $('#positive-id3').remove();
+                $('#pepe3').append('<div class="negative" id="positive-id3">Ingrese la fecha correctamente!</div>');
+            }else{
+                $('#pepe3').addClass('has-success');
+                $('#pepe3').removeClass('has-error');
+                $('#positive-id3').remove();
+                $('#pepe3').append('<div class="positive" id="positive-id3">Bien!</div>');
+            }
+        })
+    });
+    $(document).ready(function () {
+        $('#campoValido4').focusout(function (e) {
+            cant = $(this).val();
+            if (cant == '') {
+                $('#pepe4').addClass('has-error');
+                $('#pepe4').removeClass('has-success');
+                $('#positive-id4').remove();
+                $('#pepe4').append('<div class="negative" id="positive-id4">Escriba su pais de residencia por favor!</div>');
+            }else{
+                $('#pepe4').addClass('has-success');
+                $('#pepe4').removeClass('has-error');
+                $('#positive-id4').remove();
+                $('#pepe4').append('<div class="positive" id="positive-id4">Bien!</div>');
+            }
+        })
+    });
+    $(document).ready(function () {
+        $('#campoValido5').focusout(function (e) {
+            cant = $(this).val();
+            if (cant == '') {
+                $('#pepe5').addClass('has-error');
+                $('#pepe5').removeClass('has-success');
+                $('#positive-id5').remove();
+                $('#pepe2').append('<div class="negative" id="positive-id5">Escriba su provincia de residencia por favor!</div>');
+            }else{
+                $('#pepe5').addClass('has-success');
+                $('#pepe5').removeClass('has-error');
+                $('#positive-id5').remove();
+                $('#pepe5').append('<div class="positive" id="positive-id5">Bien!</div>');
+            }
+        })
+    });
+</script>
+
+</html>
